@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Packaging and build output
+build/
+dist/
+*.egg-info/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Models and datasets
+models/
+datasets/
+data/
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.weights
+
+# Runtime output
+logs/
+*.log
+runs/
+outputs/
+tmp/
+temp/
+*.tmp
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
